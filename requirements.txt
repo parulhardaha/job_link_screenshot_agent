@@ -1,4 +1,25 @@
-altgraph @ file:///AppleInternal/Library/BuildRoots/4~CGYkugDNMJDPussZJfa8Q7q7wDj7yZMIh_VI6H4/Library/Caches/com.apple.xbs/Sources/python3/altgraph-0.17.2-py2.py3-none-any.whl
+# Requirements for job_link_screenshot_agent
+#
+# Install into a virtualenv, e.g.:
+# python3 -m venv .venv
+# source .venv/bin/activate
+# python -m pip install -r requirements.txt
+#
+# Note: Playwright requires additional browser binaries. After installing
+# the Python package, run:
+#     playwright install chromium
+# or to install all supported browsers:
+#     playwright install
+# See: https://playwright.dev/python/docs/intro
+
+# Core runtime dependencies
+pandas>=1.5
+openpyxl>=3.0
+python-dotenv>=1.0
+playwright>=1.30
+
+# Optional / dev
+# pytest>=7.0    # add if you write testsaltgraph @ file:///AppleInternal/Library/BuildRoots/4~CGYkugDNMJDPussZJfa8Q7q7wDj7yZMIh_VI6H4/Library/Caches/com.apple.xbs/Sources/python3/altgraph-0.17.2-py2.py3-none-any.whl
 et_xmlfile==2.0.0
 future @ file:///AppleInternal/Library/BuildRoots/4~CGYkugDNMJDPussZJfa8Q7q7wDj7yZMIh_VI6H4/Library/Caches/com.apple.xbs/Sources/python3/future-0.18.2-py3-none-any.whl
 greenlet==3.2.5
