@@ -42,3 +42,8 @@ DRY_RUN=1
 ```bash
 python3 main.py
 ```
+
+## Demo Video
+
+Watch the working demo of the project here:  
+https://drive.google.com/file/d/1SqFmSBLEgd-6PU2J8yCLbaqrnqiniBaS/view?usp=sharing
