@@ -26,7 +26,7 @@ To set up locally:
 
 ```bash
 cp .env.example .env
-# Then edit .env and put your real values in (do not commit .env)
+# Then edit .env and put your real values 
 ```
 
 2. The repo already ignores `.env` (see `.gitignore`), so your secrets won't be committed by default.
@@ -42,7 +42,3 @@ DRY_RUN=1
 ```bash
 python3 main.py
 ```
-
-If you ever accidentally expose an app password or SMTP credential in a public place, revoke and rotate it immediately. For Gmail app passwords: open your Google Account > Security > App passwords, revoke the exposed password, and create a new one. Prefer using a secrets manager (AWS/GCP/Azure) or CI secrets for production.
-
-If you'd like, I can add a small `scripts/setup.sh` to automate the `cp .env.example .env` step and to perform the Playwright browser install.
