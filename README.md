@@ -2,7 +2,7 @@
 
 
 
-
+## Desciption
 The project uses Python, Playwright, and smtplib (SMTP library) to automate the workflow.
 
 After running the project, an email is received in the inbox using SMTP (Gmail server).
